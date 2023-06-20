@@ -9,7 +9,7 @@
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: rgb(14, 14, 14);
     --bs-btn-hover-border-color: rgb(14, 14, 14);
-    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: rgb(14, 14, 14);
     --bs-btn-active-border-color: rgb(14, 14, 14);
@@ -22,8 +22,75 @@
     font-size: 23px;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #fff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
+}
+
+.preto {
+    width: 50%;
+    height: 1100px;
+    background: #FF882B;
+    background-image: linear-gradient(to left, #FF882B, #f89142, #fa9d56);
+
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+.duastela {
+    display: flex;
+}
+
+h2 {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+.branco {
+    width: 50%;
+    height: 1000px;
+    background: white;
+
+}
+
+.img-preto {
+    position: relative;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.img-preto2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 90%;
+
+}
+
+.p1 {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    margin: 5px;
+}
+
+.p2 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    margin: 5px;
+    margin-top: 145px;
+}
+
+.img-preto2 {
+    margin-left: 300px;
 }
